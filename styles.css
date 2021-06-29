@@ -1,0 +1,56 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(46, 4, 94, 0.959);
+}
+
+.navigationContainer{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 7.5vh;
+    display: flex;
+}
+
+.navigationBarHead{
+    /* border: 1px solid black; */
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.navigationBarHead h3{
+    /* border: 1px solid black; */
+    font-size: 2em;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.navigationContents{
+    /* border: 1px solid black; */
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.navigationContents h3{
+    /* border: 1px solid black; */
+    font-family: "Oswald", sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navigationContents h3:hover{
+    background-color: rgb(101, 18, 196);
+}
+
