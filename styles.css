@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgba(46, 4, 94, 0.959);
+    background-color: rgba(27, 25, 29, 0.959);
 }
 
 .navigationContainer{
@@ -62,7 +62,7 @@ body{
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center;background-color: rgba(245, 245, 245, 0.281);
     
 }
 
